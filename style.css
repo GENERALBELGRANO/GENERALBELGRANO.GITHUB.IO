@@ -9,14 +9,14 @@
 --east-side: #b490c4;
 --trendy-pink: #9c5ca4;
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
 body{
     background-color: black;
 }
 h1{
     color:  white;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 hr{
     height: 1px;
@@ -29,7 +29,7 @@ hr{
     
 }
 .img2{
-    width: 300px;
+    width: 100%;
     height: 100%;
     
     box-shadow:2px 2px 30px 10px #752d85;
@@ -39,7 +39,7 @@ hr{
     color: white;
     text-align: center;
     font-weight: 700;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 .mojito{
     color: white;
@@ -51,5 +51,31 @@ hr{
     text-align: center;
     color: #752d85 ;
 }
+
+
+.accordion {
+    background-color:#752d85 ;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color:#752d85  ; 
+}
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
 
 
