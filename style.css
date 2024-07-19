@@ -1,0 +1,54 @@
+/* CSS HEX 
+--snuff: #e4d5e7;
+--eminence: #752d85;
+--wisteria: #a777b1;
+--london-hue: #bc93c3;
+--london-hue: #bc9cc4;
+--affair: #8e4f9a;
+--trendy-pink: #945ba4;
+--east-side: #b490c4;
+--trendy-pink: #9c5ca4;
+*/
+
+body{
+    background-color: black;
+}
+h1{
+    color:  white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    height: 1px;
+    background-color: white;
+
+}
+.img1{
+    width: 100%;
+    height: auto;
+    
+}
+.img2{
+    width: 350px;
+    height: auto;
+    padding-right: 30px;
+}
+.trago1{
+    
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mojito{
+    color: white;
+}
+.bajo{
+    color: white;
+}
+.dire , .Email{
+    text-align: center;
+    color: #752d85 ;
+}
+
+
