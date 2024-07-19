@@ -15,59 +15,40 @@
     <h1> Lista de Tragos: </h1>
     <hr>
     </div>
-
-    <div class=" trago1">
-        <h3 class="mojito">Mojito:</h3>
+<button class="accordion">Tragos con ron:</button>
+        <div class="panel"> <h4>Mojito</h4>
     <img src="mojito.jpeg" alt="img2" class="img2">
-    <p> - Menta </p>
+        <p> - Menta </p>
         <p>- Cubos de lima <p>
         <p>- 1 y media onza de almíbar </p>
         <p>- Media onza de zumo de limón </p>
         <p>- 2 onzas de ron </p>
         <p>-Se completa con soda</p>
-    <hr>
+        <hr>
 </div>
-
-<div class="trago1">
-    <h3>Ramazzoti: </h3>
-    <img src="ramazoti.jpeg" alt="" class="img2">
-        <p>- 2 onzas de Ramazzotti  </p>
-        <p>- Completa con soda  </p>
-        <p>- Un rodaja de limón </p>
-    <hr>
-</div>
-
-<div class="trago1">
-    <h3>Aperol spritz:</h3>
-    <img src="aperol.jpeg" alt="" class="img2">
-    <p>- 1/4 de espumante </p>
-        <p>- 2 onzas de aperol </p>
-        <p>- Se completa con soda </p>
-        <p>- Una rodaja de naranja</p>
-    <hr>
-</div>
-<div class="trago1">
-    <h3>Gin:</h3>
-    <img src="gin.jpeg" alt="" class="img2">
-    <p>- Limón, naranja, pomelo,pepino</p>
-        <p>-2 onzas de gin </p>
-        <p>- Se completa con tónica</p>
-    <hr>
-</div>
-<div class="trago1">
-    <h3>Americano:</h3>
-    <img src="americano.jpeg" alt="" class="img2">
-     <p>-1 onza de Cinzano</p>
-    <p>-1 onza de Campari</p>
-    <p>- completa con Soda</p>
-    <hr>
-</div>
+   
 <footer>
     <div class="bajo"> 
         <h4 class="dire">Corrientes 1682 – Bella Vista</h4>
         <h4 class="Email">Email: info@janoseventos.com</h4>
     
 </footer>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+    </script>
     
 </body>
 </html>
